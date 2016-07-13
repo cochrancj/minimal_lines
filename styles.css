@@ -13,6 +13,10 @@ h4 {
   font-family: 'Oswald', sans-serif;
 }
 
+h2 {
+  font-family: 'Oswald', sans-serif;
+}
+
 p {
   font-family: 'Open Sans Condensed', sans-serif;
 }
@@ -23,14 +27,14 @@ p {
 
 .top-nav {
   text-align: right;
-  padding-right: 23%;
+  padding-right: 28%;
   padding-top: 5%;
 }
 
 .wrapper {
   border-left: 1px solid grey;
-  width: 70%;
-  height: 60vh;
+  width: 60%;
+  height: 150vh;
   float:left;
   margin-left: 10%;
 }
@@ -41,21 +45,29 @@ p {
   background-color: black;
   margin-top: 60vh;
   float:right;
-  margin-right: 5%;
+  margin-right: 15%;
 }
 
 .clear {
   float: none;
 }
-/*div.vertical-line{
-  width: 1px;
-  background-color: silver;
-  height: 30px;
-  float: right;
-  border: 2px ridge silver ;
-  border-radius: 2px;
-  padding-right: 25%;
-}*/
+
+.headline {
+  margin-bottom: 20em;
+}
+
+hr  {
+  z-index: 5;
+  width: 100%;
+/*  position: fixed;*/
+}
+
+.design-label {
+  border: 1px solid black;
+  padding: 1%;
+  width: 25%;
+  margin-left: 10%;
+}
 
 /*hr {
     transform:rotate(90deg);
