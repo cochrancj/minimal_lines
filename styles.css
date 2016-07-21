@@ -1,5 +1,5 @@
 body  {
-  background-color: lightblue;
+  background-color: snow;
 }
 
 h1  {
@@ -21,6 +21,15 @@ p {
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+}
+
 .quote {
   font-family: 'Old Standard TT', serif;
 }
@@ -31,17 +40,27 @@ p {
   padding-top: 5%;
 }
 
-.wrapper {
-  border-left: 1px solid grey;
+.left-bar {
+  border-right: 1px solid grey;
+  width: 14%;
+  height: 350vh;
+  float:left;
+  z-index: 6;
+  position: relative;
+}
+
+.center-box {
   width: 60%;
   height: 150vh;
   float:left;
-  margin-left: 10%;
+  padding-left: 2%;
 }
+
+
 
 .right-bar {
   width: 2%;
-  height: 20em;
+  height: 50em;
   background-color: black;
   margin-top: 60vh;
   float:right;
@@ -56,24 +75,52 @@ p {
   margin-bottom: 20em;
 }
 
-hr  {
-  z-index: 5;
-  width: 100%;
-/*  position: fixed;*/
+.horizontal {
+  left: -6em;
+  width: 125.9%; 
+  height: 80%;
+  border-top: 1px solid grey;
+  z-index: 2;
+  position: relative;
+  background-color: gainsboro;
 }
 
 .design-label {
   border: 1px solid black;
   padding: 1%;
   width: 25%;
-  margin-left: 10%;
+  z-index: 3;
+  position: relative;
+  top: 4em;
 }
 
-/*hr {
-    transform:rotate(90deg);
-    -o-transform:rotate(90deg);
-    -moz-transform:rotate(90deg);
-    -webkit-transform:rotate(90deg);
-    padding-left: 50px;
-}*/
+.footer {
+  width: 107%;
+  height: 20em;
+  bottom: 0;
+/*  left: -5px;
+*/  background-color: darkgrey;
+/*  margin-top: 80%;*/
+  padding: 2%;
+  }
+
+.footer-left {
+  float: left;
+  width: 30%;
+}
+
+.footer-center {
+  float: left;
+  width: 30%;
+  border-left: 1px solid black;
+  padding-left: 2%;
+}
+
+.footer-right {
+  float:left;
+  overflow: none;
+  width: 30%;
+  border-left: 1px solid black;
+  padding-left: 2%;
+}
 
