@@ -78,7 +78,7 @@ ul {
 .horizontal {
   left: -6em;
   width: 125.9%; 
-  height: 80%;
+  /*height: 80%;*/
   border-top: 1px solid grey;
   z-index: 2;
   position: relative;
@@ -92,6 +92,30 @@ ul {
   z-index: 3;
   position: relative;
   top: 4em;
+}
+
+.project {
+  width: 30%;
+  padding: 3%;
+  margin-top: 10%;
+  background-color: white;
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+}
+
+.left {
+  margin-left: 10%;
+  float: left;
+}
+
+.right {
+  float: left;
+  margin-left: 3%;
+}
+
+.clear {
+  overflow: none;
 }
 
 .footer {
